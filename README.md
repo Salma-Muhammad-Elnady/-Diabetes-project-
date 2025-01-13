@@ -84,5 +84,6 @@ A web application to determine whether a person has diabetes or not, using the X
 
 
 
+
  
  
