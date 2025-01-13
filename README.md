@@ -48,10 +48,11 @@ A web application to determine whether a person has diabetes or not, using the X
 [[145  46]
 [ 29 162]]
 * ROC AUC Score: 0.80
-| classes  | results | result |
+
+| classes | results | result |
 | ------------- | ------------- |------------- |
-| 0  | 145  | 46 |
-|  1 | 29  |  162 |
+| 0 | 145 | 46 |
+| 1 | 29 | 162 |
 
  
  
