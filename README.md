@@ -43,23 +43,22 @@ A web application to determine whether a person has diabetes or not, using the X
 * Developing a web application using the XGBoost model to predict diabetes based on a set of input data with high prediction accuracy.
 # XG-Boost Results:
 ## Train Data Results
-* Accuracy: 0.80
-* ROC AUC Score: 0.80
-* Confusion Matrix:
+### * Accuracy: 0.80
+### * ROC AUC Score: 0.80
+### * Confusion Matrix:
    
 | Actual \ Predicted | 0 | 1 |
 | ------------- | ------------- |------------- |
 | 0  | (TN) 145 |  (FP) 46 |
 | 1  | (FN) 29 |  (TP) 162 |
 
+### * Performance Metrics for Model Classification
+The table below displays the precision, recall, F1-score, and support for each class in the model's classification performance. These metrics help to evaluate the effectiveness and accuracy of the model in predicting each class.
+
 |Class  | Precision | Recall | F1-score | Support | 
 | ------------- | ------------- |------------- |------------- |------------- |
 | 0  | 0.83 | 0.76 | 0.79 | 191 |
 | 1  | 0.78 | 0.85 | 0.81 | 191 |
-
-### Performance Metrics for Model Classification
-
-The table below displays the precision, recall, F1-score, and support for each class in the model's classification performance. These metrics help to evaluate the effectiveness and accuracy of the model in predicting each class.
 
 
 
