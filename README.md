@@ -57,6 +57,11 @@ A web application to determine whether a person has diabetes or not, using the X
 | 0  | 0.83 | 0.76 | 0.79 | 191 |
 | 1  | 0.78 | 0.85 | 0.81 | 191 |
 
+### Performance Metrics for Model Classification
+
+The table below displays the precision, recall, F1-score, and support for each class in the model's classification performance. These metrics help to evaluate the effectiveness and accuracy of the model in predicting each class.
+
+
 
 
 
