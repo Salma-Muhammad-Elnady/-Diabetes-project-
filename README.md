@@ -46,19 +46,37 @@ A web application to determine whether a person has diabetes or not, using the X
 * #### Accuracy: 0.80
 * #### ROC AUC Score: 0.80
 * #### Confusion Matrix:
-   
+    
 | Actual \ Predicted | 0 | 1 |
 | ------------- | ------------- |------------- |
 | 0  | (TN) 145 |  (FP) 46 |
 | 1  | (FN) 29 |  (TP) 162 |
 
-* #### Performance Metrics for Model Classification
-The table below displays the precision, recall, F1-score, and support for each class in the model's classification performance. These metrics help to evaluate the effectiveness and accuracy of the model in predicting each class.
-
+* #### Performance Metrics for Model Classification:
+ 
 |Class  | Precision | Recall | F1-score | Support | 
 | ------------- | ------------- |------------- |------------- |------------- |
 | 0  | 0.83 | 0.76 | 0.79 | 191 |
 | 1  | 0.78 | 0.85 | 0.81 | 191 |
+
+## Test Data 
+* #### Accuracy Score: 0.81
+* #### ROC AUC Score: 0.82
+* #### Confusion Matrix:
+
+| Actual \ Predicted | 0 | 1 |
+| ------------- | ------------- |------------- |
+| 0  | (TN) 122 |  (FP) 32 |
+| 1  | (FN) 11 |  (TP) 66 |
+
+* #### Performance Metrics for Model Classification:
+ 
+|Class  | Precision | Recall | F1-score | Support | 
+| ------------- | ------------- |------------- |------------- |------------- |
+| 0  | 0.92 | 0.79 | 0.85 | 154 |
+| 1  | 0.67 | 0.86 | 0.75 | 77 |
+
+
 
 
 
