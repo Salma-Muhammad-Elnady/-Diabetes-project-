@@ -80,7 +80,7 @@ A web application to determine whether a person has diabetes or not, using the X
 
 # Web application images and prediction results: 
 ### 1. Data entry form 
-![Uploading img 1.PNG…]()
+![img 1](https://1drv.ms/f/c/0923e362129c59b2/ErJZnBJi4yMggAmAAAAAAAABU3Cf9acWNRXEhtaoo_ZHug?e=ekYaaY)
 
 
 
