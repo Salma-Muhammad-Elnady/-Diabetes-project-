@@ -46,11 +46,6 @@ A web application to determine whether a person has diabetes or not, using the X
 * Accuracy: 0.80
 * ROC AUC Score: 0.80
  * Confusion Matrix:
-| | 0        | 1        |
-|--------------------|----------|----------|
-| 0                  |  | |
-| 1                  |  | |
-
 | Actual \ Predicted | 0 | 1 |
 | ------------- | ------------- |------------- |
 | 0  | (TN) 145 |  (FP) 46 |
