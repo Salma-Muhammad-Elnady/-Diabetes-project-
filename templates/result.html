@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/result.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="{{ url_for('static', filename='images/img.png') }}" alt="Diabetes Prediction Logo" class="logo">
+        </header>
+        <main class="main-content">
+            <section class="result-section">
+                <h2 class="result-title">Prediction Result</h2>
+                <div class="result-box">
+                    <p class="result">{{ prediction }}</p>
+                    <div class="advice" id="advice-box">
+                        {% if prediction == 'The person has diabetes.' %}
+                            <p>We recommend conducting a necessary medical examination for further confirmation to take the appropriate treatment measures.</p>
+                        {% else %}
+                            <p>Maintain a healthy lifestyle with a balanced diet and regular exercise.</p>
+                        {% endif %}
+                    </div>
+                    <a href="{{ url_for('home') }}" class="button" role="button">Check Another Prediction</a>
+
+                </div>
+            </section>
+            <section class="info-section" id="info-section">
+                <h3>Tips for a Healthy Lifestyle</h3>
+                <ul class="tips" id="tips">
+                    <li>Eat a balanced diet with plenty of fruits and vegetables.</li>
+                    <li>Exercise regularly for at least 30 minutes a day.</li>
+                    <li>Stay hydrated by drinking plenty of water.</li>
+                    <li>Get enough sleep and manage stress effectively.</li>
+                    <li>Monitor your blood sugar levels regularly.</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 Diabetes Prediction. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

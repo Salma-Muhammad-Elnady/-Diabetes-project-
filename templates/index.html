@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Css/style.css') }}">
+</head>
+<body>
+    <div class="wave-container">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+            <path d="M 0,700 L 0,262 C 79.03333333333336,313.1525641025641 158.06666666666672,364.3051282051282 247,345 C 335.9333333333333,325.6948717948718 434.76666666666654,235.93205128205125 503,266 C 571.2333333333335,296.06794871794875 608.8666666666668,445.9666666666667 679,522 C 749.1333333333332,598.0333333333333 851.7666666666667,600.2012820512821 938,588 C 1024.2333333333333,575.7987179487179 1094.0666666666666,549.2282051282051 1175,555 C 1255.9333333333334,560.7717948717949 1347.9666666666667,598.8858974358975 1440,637 L 1440,700 L 0,700 Z" stroke="none" stroke-width="0" fill="#8abfa3" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 350)"></path>
+        </svg>
+    </div>
+        
+    <div class="content">
+        <div class="form-container">
+            <form action="/predict" method="POST" autocomplete="off">
+                <div class="input">
+                    <input type="number" name="Glucose" step="any" placeholder="Glucose" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="BloodPressure" step="any" placeholder="Blood Pressure" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="SkinThickness" step="any" placeholder="Skin Thickness" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="Insulin" step="any" placeholder="Insulin" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="BMI" step="any" placeholder="BMI" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="DiabetesPedigreeFunction" step="any" placeholder="Diabetes Pedigree Function" required>
+                </div>
+                <div class="input">
+                    <input type="number" name="Age" step="any" placeholder="Age" required>
+                </div>
+                <input type="submit" value="Predict">
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/img-Photoroom.png') }}" alt="Diabetes Diagnosis Image" class="image">
+            <div class="title-logo-container">
+                <img src="{{ url_for('static', filename='images/medicalbot.png') }}" alt="Logo">
+                <h2 class="project-title">Diabetes Diagnosis Assistant Bot</h2>
+            </div>
+            <div class="logo-paragraph-container">
+                <p class="project-description">Hello! I am your smart assistant for diabetes diagnosis<br> Please enter the data in the form to help you accurately diagnose diabetes.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
