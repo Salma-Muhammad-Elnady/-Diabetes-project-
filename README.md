@@ -41,7 +41,6 @@ A web application to determine whether a person has diabetes or not, using the X
  
 # Project Objective:
 * Developing a web application using the XGBoost model to predict diabetes based on a set of input data with high prediction accuracy.
-* 
 # XG-Boost Results:
 ## Train Data
 * Accuracy: 0.80
@@ -49,10 +48,10 @@ A web application to determine whether a person has diabetes or not, using the X
 [[145  46]
 [ 29 162]]
 * ROC AUC Score: 0.80
-
+| classes  | results | result |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | 
+| 0  | 145  | 46 |
+|  1 | 29  |  162 |
 
  
  
