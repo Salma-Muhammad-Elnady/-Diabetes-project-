@@ -75,7 +75,7 @@ A web application to determine whether a person has diabetes or not, using the X
 | 0  | 0.92 | 0.79 | 0.85 | 154 |
 | 1  | 0.67 | 0.86 | 0.75 | 77 |
 
-# Dataset Link /
+## Dataset Link /
 ### The dataset for this project can be found [here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database/data)
 
 
