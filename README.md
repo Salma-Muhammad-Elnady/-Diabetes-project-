@@ -52,7 +52,7 @@ A web application to determine whether a person has diabetes or not, using the X
 | 0  | (TN) 145 |  (FP) 46 |
 | 1  | (FN) 29 |  (TP) 162 |
 
-### *Performance Metrics for Model Classification
+### * Performance Metrics for Model Classification
 The table below displays the precision, recall, F1-score, and support for each class in the model's classification performance. These metrics help to evaluate the effectiveness and accuracy of the model in predicting each class.
 
 |Class  | Precision | Recall | F1-score | Support | 
