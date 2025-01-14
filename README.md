@@ -85,5 +85,5 @@ ________________________________________________________________________________
 ### 2. Entering some data to test the model .
 ![img2](https://github.com/user-attachments/assets/ef9aaf1d-8ce3-4304-9611-ba1f7e7c5796)
 ________________________________________________________________________________________
- ### 3.  Display the prediction result with an alert message. 
+ ### 3. Displaying the prediction result with a warning message and tips for maintaining health.
 ![img3](https://github.com/user-attachments/assets/cb2593d6-a9c0-4726-a9a7-7aec581e11dd)
