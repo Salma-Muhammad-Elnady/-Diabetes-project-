@@ -1,4 +1,4 @@
-![img11](https://github.com/user-attachments/assets/8ca6cf00-b1c2-46b4-b939-e4a8703952e7)# **Diabetes Prediction Web Application**
+# **Diabetes Prediction Web Application**
 # Overview :
 A web application to determine whether a person has diabetes or not, using the XG Boost model to predict the diabetes outcome when the following data is entered: glucose, blood pressure, skin thickness, insulin, body mass index (BMI), diabetes pedigree function, age.
 
