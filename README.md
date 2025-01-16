@@ -84,6 +84,6 @@ _![img11](https://github.com/user-attachments/assets/28a4140e-b60d-4809-9ef4-068
 ______________________________________________________________________________________
 ### 2. Entering some data to test the model .
 ![img12](https://github.com/user-attachments/assets/ae32fb61-9cc2-4e44-9be6-1d3a793d15b0)
-________________________________________________________________________________________
+______________________________________________________________________________________
  ### 3. Displaying the prediction result with a warning message and tips for maintaining health.
 ![13](https://github.com/user-attachments/assets/2b282e8e-ab0a-4949-8b46-1718b17b09a1)
