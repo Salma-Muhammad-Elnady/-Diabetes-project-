@@ -86,4 +86,4 @@ ________________________________________________________________________________
 ![img12](https://github.com/user-attachments/assets/ae32fb61-9cc2-4e44-9be6-1d3a793d15b0)
 ________________________________________________________________________________________
  ### 3. Displaying the prediction result with a warning message and tips for maintaining health.
-![img13](https://github.com/user-attachments/assets/262894fc-c10b-4574-88e7-ea224fc235d7)
+![13](https://github.com/user-attachments/assets/2b282e8e-ab0a-4949-8b46-1718b17b09a1)
