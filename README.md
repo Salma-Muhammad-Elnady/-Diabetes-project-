@@ -79,7 +79,7 @@ A web application to determine whether a person has diabetes or not, using the X
 ### The dataset for this project can be found [here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database/data)
 
 # Web application images and prediction results: 
-### 1. Data form entry 
+### 1. Data form entry .
 _![img11](https://github.com/user-attachments/assets/28a4140e-b60d-4809-9ef4-0681babd90a1)
 ______________________________________________________________________________________
 ### 2. Entering some data to test the model .
