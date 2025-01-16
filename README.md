@@ -81,7 +81,7 @@ A web application to determine whether a person has diabetes or not, using the X
 # Web application images and prediction results: 
 ### 1. Data form entry .
 _![img11](https://github.com/user-attachments/assets/28a4140e-b60d-4809-9ef4-0681babd90a1)
-______________________________________________________________________________________
+__________________________________________________________________________________
 ### 2. Entering some data to test the model .
 ![img12](https://github.com/user-attachments/assets/ae32fb61-9cc2-4e44-9be6-1d3a793d15b0)
 ______________________________________________________________________________________
