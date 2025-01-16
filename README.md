@@ -80,10 +80,10 @@ A web application to determine whether a person has diabetes or not, using the X
 
 # Web application images and prediction results: 
 ### 1. Data form entry 
-![img1](https://github.com/user-attachments/assets/53ef35d1-f445-4b39-960b-beb23a8f3204)
-_______________________________________________________________________________________
+_![img11](https://github.com/user-attachments/assets/28a4140e-b60d-4809-9ef4-0681babd90a1)
+______________________________________________________________________________________
 ### 2. Entering some data to test the model .
-![img2](https://github.com/user-attachments/assets/ef9aaf1d-8ce3-4304-9611-ba1f7e7c5796)
+![img12](https://github.com/user-attachments/assets/ae32fb61-9cc2-4e44-9be6-1d3a793d15b0)
 ________________________________________________________________________________________
  ### 3. Displaying the prediction result with a warning message and tips for maintaining health.
-![img3](https://github.com/user-attachments/assets/cb2593d6-a9c0-4726-a9a7-7aec581e11dd)
+![img13](https://github.com/user-attachments/assets/262894fc-c10b-4574-88e7-ea224fc235d7)
